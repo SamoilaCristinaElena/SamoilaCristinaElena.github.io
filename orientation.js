@@ -1,4 +1,4 @@
-document.getelementById("id_logic_version").innerHTML = "Logic version: 2018.10.30.2";
+document.getelementById("id_logic_version").innerHTML = "Logic version: 2018.10.30.0";
 
 window.addEventListener("deviceorientation", la_schimbare_gyro);
 
