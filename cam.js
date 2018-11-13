@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.11.13.4";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.11.13.5";
 
 function on_ok(stream)
 {
