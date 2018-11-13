@@ -1,4 +1,6 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.11.13.5";
+document.getElementById("id_logic_version").innerHTML = "Logic version: 2018.11.13.6";
+document.getElementById("id_video").addEventListener("mousedown", on_touch);
+document.getElementById("id_video").addEventListener("touchstart", on_touch);
 
 function on_ok(stream)
 {
@@ -17,4 +19,13 @@ function start ()
 {
 var p ={audio:true,video:true};
 navigator.mediaDevices.getUserMedia(p).then(on_ok).catch(on_error);
+}
+//...........................
+
+function on_touch (e)
+{
+ var canvas = document.getElementById("id_canvas"); 
+  var context = document.getContext("2d");
+  var video = document.getElementById("id_video"); 
+  context.drawImage();
 }
