@@ -8,7 +8,7 @@ $fn=100;
         union(){
             
             translate([10.5,0,0]) square([4,7], center = true);
-            translate([19.5,0,0]) square([5,7], center = true);
+            translate([19.5,0,0]) square([4,7], center = true);
           
         }
         
