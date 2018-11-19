@@ -22,7 +22,7 @@ $fn=100;
       for ( ball= [0:30:360]) {
            rotate ([0,0, ball])
            translate ([14.75,0,0])
-           color ("gray")
+           color ("green")
            sphere (r=3.25 );
     
  }
@@ -50,7 +50,7 @@ rotate_extrude(){
  for ( ball= [0:30:360]) {
      rotate ([0,0, ball])
      translate ([14.75,0,0])
-     color ("gray")
+     color ("green")
      sphere (r=3.25 );
     
  }
