@@ -3,17 +3,17 @@
 <html>
 
 <head>
-<title>Pagina mea web </title>
+<title>Pagina mea personala </title>
 </head>
 
 <body>
 <h1>Prima sectiune</h1>
 
-<pid="id_salut">Salut</p>
+<p id="id_hello">Hello</p>
 
 <h1> Sectiunea 2</h1>
 
-<img id = "id_img" src = "mos_craciun.jpg" alt ='imagine cu mos craciun">
+<img id = "id_img" src = "mos craciun.png" alt ="mos craciun">
 
 <button type = "button" onclick="modifica()"> Apasa </button>
 
@@ -22,36 +22,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-function modifica ()
-{
-document.getElementById("id_salut").innerHTML = "Hello";
-document.getElementById("id_img").src = "rudolf.jpg";
-}
-
-
-
-
-
-
-
-var rudolf = false;
-function modifica ()
-{
-document.getElementById("id_salut").innerHTML = "Hello";
-  
-  if (pisica==false){
-    document.getElementById("id_img").src = "mos_craciun.jpg";
-  pisica=true;
-}
-else{
-   document.getElementById("id_img").src = "rudolf.jpg";
-   rudolf=false;
-}
-}
-
