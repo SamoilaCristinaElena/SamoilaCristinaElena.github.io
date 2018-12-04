@@ -1,4 +1,4 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version:  2018.12.04.3"
+document.getElementById("id_logic_version").innerHTML = "Logic version:  2018.12.04.4"
  var synth = window.speechSynthesis;
 
 //...............................
@@ -22,7 +22,7 @@ function vorbeste (
  enunt.text = document.getElementById("id_text").value;
  enunt.language "en-US";
  synth.speak(enunt);
- 
+ )
  
 }
  
