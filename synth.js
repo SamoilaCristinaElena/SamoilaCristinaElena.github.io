@@ -1,10 +1,10 @@
-document.getElementById("id_logic_version").innerHTML = "Logic version:  2018.12.04.6";
+document.getElementById("id_logic_version").innerHTML = "Logic version:  2018.12.04.7";
  var synth = window.speechSynthesis;
 
 //...............................
 function afiseaza_voci()
 {
-  
+  document.getElementById("id_voci").innerHTML = "";
   
  var synth = window.speechSynthesis;
  var lista_voci = synth.getVoices();
